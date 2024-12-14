@@ -4,6 +4,7 @@ import "./styles.css"
 import Home from "./components/Home";
 import RollDice from "./components/RollDice";
 import Navbar from "./components/Navbar";
+import Playersheet from "./components/Playersheet";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/roll-dice" element={<RollDice />} />
+        <Route path="/playersheet" element={<Playersheet />} />
         {/* Add more routes here */}
       </Routes>
     </Router>

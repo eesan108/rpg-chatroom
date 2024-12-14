@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="navbar">
             <Link to="/" className="navbar-btn">Home</Link>
             <Link to="/roll-dice" className="navbar-btn">Roll dice</Link>
-            <button className="navbar-btn">Player Sheet</button>
+            <Link to="/playersheet" className="navbar-btn">Playersheet</Link>
             <button className="navbar-btn">Dark mode</button>
 
         </div>
