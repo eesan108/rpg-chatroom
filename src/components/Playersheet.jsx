@@ -32,7 +32,9 @@ const Playersheet = () => {
     };
 
     return (
+        
       <div className='player-sheet'>
+        
         <h1>Player sheet</h1>
         <form>
             <label>
